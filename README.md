@@ -32,3 +32,4 @@ Foram encontradas 2 possíveis soluções para este problema:
 * Você pode adicionar manualmente nos arquivos .bashrc, .zshenv ou .zshrc do seu computador a linha export DOCKER_DEFAULT_PLATFORM=linux/amd64, essa é uma solução global. As soluções foram com base nesta fonte.
 
 ## Criando Batalhas
+### Em construcao <>
