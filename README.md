@@ -31,7 +31,8 @@ Foram encontradas 2 possíveis soluções para este problema:
 * Você pode adicionar manualmente a option platform: linux/amd64 no service do banco de dados no arquivo docker-compose.yml do projeto, mas essa é uma solução local e você deverá reproduzir isso para os outros projetos.
 * Você pode adicionar manualmente nos arquivos .bashrc, .zshenv ou .zshrc do seu computador a linha export DOCKER_DEFAULT_PLATFORM=linux/amd64, essa é uma solução global. As soluções foram com base nesta fonte.
 
-## Criando Batalhas
+#Criando Batalhas
+## Batalha PVP (Player vs Player)
 Para criar uma Batalha PVP, voce precisa criar duas instancias de players. Dica: Voce pode upar o level dos personagens com o metodo `levelUp`.
 
 ```javascript
@@ -42,4 +43,15 @@ player1.levelUp();
 Criando a instancia de PVP, voce precisa instanciar a batalha PVP da seguinte forma:
 ```javascript
 const pvp = new PVP(player1, player2);
+```
+## Batalha PVE (Player vs "Ambiente)
+Para criar uma Batalha PVE, voce precisa ter um player e um `array` de monsters( no array pode ser inserido a quantidade que desejar de `monstros` e `dragons`). Dica: Voce pode upar o level dos personagens com o metodo `levelUp`.
+
+```javascript
+const player1 = new Character('Harold');
+const monster = new Monster();
+```
+Criando a instancia de PVE, voce precisa instanciar a batalha PVE da seguinte forma:
+```javascript
+const pve = new PVE(player1, [monster]);
 ```
