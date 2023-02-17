@@ -31,7 +31,7 @@ Foram encontradas 2 possíveis soluções para este problema:
 * Você pode adicionar manualmente a option platform: linux/amd64 no service do banco de dados no arquivo docker-compose.yml do projeto, mas essa é uma solução local e você deverá reproduzir isso para os outros projetos.
 * Você pode adicionar manualmente nos arquivos .bashrc, .zshenv ou .zshrc do seu computador a linha export DOCKER_DEFAULT_PLATFORM=linux/amd64, essa é uma solução global. As soluções foram com base nesta fonte.
 
-#Criando Batalhas
+# Criando Batalhas
 ## Batalha PVP (Player vs Player)
 Para criar uma Batalha PVP, voce precisa criar duas instancias de players. Dica: Voce pode upar o level dos personagens com o metodo `levelUp`.
 
