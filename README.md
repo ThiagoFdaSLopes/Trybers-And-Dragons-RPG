@@ -37,6 +37,7 @@ Para criar uma Batalha PVP, voce precisa criar duas instancias de players. Dica:
 ```javascript
 const player1 = new Character('Harold');
 const player2 = new Character('Any');
+player1.levelUp();
 ```
 Criando a instancia de PVP, voce precisa instanciar a batalha PVP da seguinte forma:
 ```javascript
