@@ -5,7 +5,7 @@ Neste projeto foi desenvolvido os princípios da arquitetura SOLID e os princíp
 Back-end: Javascript, Typescript, Node.js, POO, SOLID, Docker
 
 ## Rodando O Docker
-Rode os serviços node com o comando ```docker-compose up -d```.
+Rode o serviço node com o comando ```docker-compose up -d```.
 
 Esse serviço ira inicializar um container chamado ```trybers_and_dragons```.
 A partir daqui você pode rodar o container ```trybers_and_dragons``` via CLI ou abri-lo no VS Code.
