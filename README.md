@@ -44,7 +44,7 @@ Criando a instancia de PVP, voce precisa instanciar a batalha PVP da seguinte fo
 ```javascript
 const pvp = new PVP(player1, player2);
 ```
-## Batalha PVE (Player vs "Ambiente)
+## Batalha PVE (Player vs "Ambiente")
 Para criar uma Batalha PVE, voce precisa ter um player e um `array` de monsters( no array pode ser inserido a quantidade que desejar de `monstros` e `dragons`). Dica: Voce pode upar o level dos personagens com o metodo `levelUp`.
 
 ```javascript
