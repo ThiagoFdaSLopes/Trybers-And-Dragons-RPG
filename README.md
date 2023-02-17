@@ -32,4 +32,13 @@ Foram encontradas 2 possíveis soluções para este problema:
 * Você pode adicionar manualmente nos arquivos .bashrc, .zshenv ou .zshrc do seu computador a linha export DOCKER_DEFAULT_PLATFORM=linux/amd64, essa é uma solução global. As soluções foram com base nesta fonte.
 
 ## Criando Batalhas
-### Em construcao <>
+Para criar uma Batalha PVP, voce precisa criar duas instancias de players. Dica: Voce pode upar o level dos personagens com o metodo `levelUp`.
+
+```javascript
+const player1 = new Character('Harold');
+const player2 = new Character('Any');
+```
+Criando a instancia de PVP, voce precisa instanciar a batalha PVP da seguinte forma:
+```javascript
+const pvp = new PVP(player1, player2);
+```
